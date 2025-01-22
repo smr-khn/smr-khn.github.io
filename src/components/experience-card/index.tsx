@@ -7,6 +7,7 @@ const ListItem = ({
   position,
   company,
   companyLink,
+  summary,
 }: {
   time: React.ReactNode;
   position?: React.ReactNode;
@@ -18,13 +19,14 @@ const ListItem = ({
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
       style={{ left: '-4.5px' }}
     ></div>
-    <div className="my-0.5 text-xs">{time}</div>
-    <h3 className="font-semibold">{position}</h3>
-    <div className="mb-4 font-normal">
+    <div className="font-semibold">
       <a href={companyLink} target="_blank" rel="noreferrer">
         {company}
       </a>
     </div>
+    <div className="my-0.5 text-xs">{time}</div>
+    <h3 className="font-semibold">{position}</h3>
+    <div className="my-0.5 text-xs">{summary}</div>
   </li>
 );
 
@@ -50,7 +52,12 @@ const ExperienceCard = ({
             heightCls: 'h-4',
             className: 'my-1.5',
           })}
-          company={skeleton({ widthCls: 'w-6/12', heightCls: 'h-3' })}
+          company={skeleton({ widthCls: 'w-6/12', heightCls: 'h-3' s
+          })}
+          summary={skeleton({
+            widthCls: 'w-5/12',
+            heightCls: 'h-4',
+          })}
         />,
       );
     }
@@ -86,6 +93,7 @@ const ExperienceCard = ({
                         ? experience.companyLink
                         : undefined
                     }
+                    summary={experience.summary}
                   />
                 ))}
               </Fragment>

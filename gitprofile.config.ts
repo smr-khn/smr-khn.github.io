@@ -92,6 +92,7 @@ const CONFIG = {
       from: 'May 2023',
       to: 'August 2023',
       companyLink: 'https://carnegierobotics.com/',
+      summary: 'Test',
     },
     {
       company: 'Westinghouse Electric Company',
@@ -99,6 +100,7 @@ const CONFIG = {
       from: 'June 2022',
       to: 'August 2022',
       companyLink: 'https://westinghouse.com/',
+      summary: '',
     },
     {
       company: 'SmithMicro',
@@ -106,6 +108,7 @@ const CONFIG = {
       from: 'Summer 2018',
       to: 'Summer 2021',
       companyLink: 'https://www.smithmicro.com/',
+      summary: '',
     },
   ],
   certifications: [
