@@ -52,7 +52,7 @@ const ExperienceCard = ({
             heightCls: 'h-4',
             className: 'my-1.5',
           })}
-          company={skeleton({ widthCls: 'w-6/12', heightCls: 'h-3' s
+          company={skeleton({ widthCls: 'w-6/12', heightCls: 'h-3'
           })}
           summary={skeleton({
             widthCls: 'w-5/12',
@@ -93,7 +93,7 @@ const ExperienceCard = ({
                         ? experience.companyLink
                         : undefined
                     }
-                    summary={experience.summary}
+                    summary={experience.company}
                   />
                 ))}
               </Fragment>
