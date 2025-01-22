@@ -13,6 +13,7 @@ const ListItem = ({
   position?: React.ReactNode;
   company?: React.ReactNode;
   companyLink?: string;
+  summary?: string;
 }) => (
   <li className="mb-5 ml-4">
     <div
