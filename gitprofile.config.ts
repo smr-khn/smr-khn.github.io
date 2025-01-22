@@ -80,10 +80,10 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/smr-khn/smr-khn.github.io/blob/main/public/SameerKhan_Resume_2025.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1J8StkEseZ7tnhA703Hhe1dUwSIE3O56G/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Python','C++', 'MATLAB'
+    'Python','C++', 'MATLAB', 'Java', '', '', '',
   ],
   experiences: [
     {
@@ -103,7 +103,7 @@ const CONFIG = {
     {
       company: 'SmithMicro',
       position: 'Quality Assurance Engineering Intern',
-      from: 'Summer 2028',
+      from: 'Summer 2018',
       to: 'Summer 2021',
       companyLink: 'https://www.smithmicro.com/',
     },
@@ -154,7 +154,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'corporate',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -186,11 +186,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
