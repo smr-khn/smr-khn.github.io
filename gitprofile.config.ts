@@ -92,7 +92,7 @@ const CONFIG = {
       from: 'May 2023',
       to: 'August 2023',
       companyLink: 'https://carnegierobotics.com/',
-      summary: 'Test',
+      summary: 'Diagnosed electrical issues in stereo cameras and validate expected results. Selected hardware components and diagrammed cable harnesses to create a fully automated functionality tester for a LIDAR safety laser tester for the Manufacturing and Production department. Created system to test all hardware and software components for an autonomy module utilized by AMRs',
     },
     {
       company: 'Westinghouse Electric Company',
@@ -100,7 +100,7 @@ const CONFIG = {
       from: 'June 2022',
       to: 'August 2022',
       companyLink: 'https://westinghouse.com/',
-      summary: 'TEST TESTSTTSETE',
+      summary: 'Developed an upgraded hardware and software system for the Multibus Assurance (MBA) Tester. Documented electrical schematics and diagrams for subsystems of the MBA Tester. Integrated virtual machines using MS DOS for compatibility with older systems to diagnose issues with failed boards',
     },
     {
       company: 'SmithMicro',
@@ -108,7 +108,7 @@ const CONFIG = {
       from: 'Summer 2018',
       to: 'Summer 2021',
       companyLink: 'https://www.smithmicro.com/',
-      summary: 'TEST TEST',
+      summary: 'Worked on automating test cases for an android app using Eclipse and Java to write the scripts. Focused on refactoring and updating projects and writing new code to cover more test cases.',
     },
   ],
   certifications: [
