@@ -80,58 +80,65 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/smr-khn/smr-khn.github.io/blob/main/public/SameerKhan_Resume_2025.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
+    'Python','C++', 'MATLAB'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Carnegie Robotics',
+      position: 'Electrical Engineering Intern',
+      from: 'May 2023',
+      to: 'August 2023',
+      companyLink: 'https://carnegierobotics.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Westinghouse Electric Company',
+      position: 'Electrical Engineering Intern',
+      from: 'June 2022',
+      to: 'August 2022',
+      companyLink: 'https://westinghouse.com/',
+    },
+    {
+      company: 'SmithMicro',
+      position: 'Quality Assurance Engineering Intern',
+      from: 'Summer 2028',
+      to: 'Summer 2021',
+      companyLink: 'https://www.smithmicro.com/',
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com',
+    // },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Johns Hopkins University',
+      degree: 'MSE in Robotics',
+      from: '2023',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Pennsylvania State University',
+      degree: 'BS in Electrical Engineering ',
+      from: '2019',
+      to: '2023',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'TBA',
       conferenceName: '',
-      journalName: 'Journal Name',
+      journalName: 'TBA',
       authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      link: 'TBA',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'TBA',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
