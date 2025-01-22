@@ -94,7 +94,7 @@ const ExperienceCard = ({
                         ? experience.companyLink
                         : undefined
                     }
-                    summary={experience.company}
+                    summary={experience.summary}
                   />
                 ))}
               </Fragment>
