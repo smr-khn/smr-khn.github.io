@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1J8StkEseZ7tnhA703Hhe1dUwSIE3O56G/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1aifDZem4Xk61z-PpaqlNpJjdgUI87rB8/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python','C++', 'MATLAB', 'Java', 'ROS/ROS2', 'PyTorch', 'OpenCV', 'TensorFlow', 'SolidWorks', 'Linux', 'Git', 'Machine/Deep Learning'
